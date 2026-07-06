@@ -1,0 +1,21 @@
+.header-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 100px;
+    colomn-gap: 50px;
+}
+
+.banner{
+  display:flex;
+  justify-content:space-between;
+    width: 100%;
+}
+
+.banner-image{
+    width:45%;
+}
+
+.banner-image img{
+    width:100%;
+}
