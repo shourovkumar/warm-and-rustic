@@ -1,21 +1,41 @@
-.header-content{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:60px 100px;
-    colomn-gap: 50px;
+.hero-section {
+  display: flex;
+  background-color: rgb(82, 143, 196);
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
-.banner{
-  display:flex;
-  justify-content:space-between;
-    width: 100%;
+.banner-content {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.banner-image{
-    width:45%;
+.banner-image {
+  flex: 1;
+  
+}
+.banner-image img {
+  width: 100%;
+  border-radius: 20px;
 }
 
-.banner-image img{
-    width:100%;
+.banner-content button {
+  font-size: 1rem;
+  padding: 5px 20px;
+  margin-top: 1.5rem;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: #000066;
+  font-weight: bold;
+}
+
+.banner-content button:hover {
+  background-color: #000066;
+  color: white;
+  transition: 0ms;
 }
